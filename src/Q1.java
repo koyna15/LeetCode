@@ -9,7 +9,7 @@ public class Q1 {
         while(start<end){
             int sum = arr[start] + arr[end];
             if(sum == target){
-                System.out.println(start +" "+end);
+                System.out.println("["+start +", "+end +"]");
                 return;
             }
             else if (sum < target) {
