@@ -30,7 +30,7 @@ public class Ques203 {
     public static void display(ListNode head){
         ListNode temp= head;
         while(temp != null){
-            System.out.println(temp.val+ " ");
+            System.out.print(temp.val+ "->");
             temp=temp.next;
         }
     }
